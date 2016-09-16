@@ -1,0 +1,15 @@
+SocksPort 9993
+ControlPort 9953
+DataDirectory /home/baws/tor/3/
+Log notice file /home/baws/tor/3/notice.log
+RunAsDaemon 1
+HashedControlPassword 16:AECC1796C84491926052D9D51EBA21310A77855C775096380EAB54CACF
+CookieAuthentication 1
+CookieAuthFileGroupReadable 1
+CookieAuthFile /home/baws/tor/3/cookies.txt
+Address anon_grid3
+Nickname anongridDK3
+ContactInfo 3@anongrid.onion
+PublishServerDescriptor 0
+ClientOnly 1                  # prevents us from ever being used as a relay
+MaxCircuitDirtiness 5 minutes
